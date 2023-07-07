@@ -6,4 +6,8 @@ app.get("/categories",(req,res)=>{
     res.send("GET CATEGORIES")
 })
 
+app.get("/products", (req,res)=>{
+    res.send('Get products')
+})
+
 app.listen(PORT, ()=> console.log(`Servidor levantado en el puerto ${PORT}`))
